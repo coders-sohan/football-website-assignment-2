@@ -53,7 +53,6 @@ ul{
     padding: 10px 30px;
     color: var(--white-color);
     background-color: var(--btn-bg-color);
-    margin-top: 30px;
     border-radius: 25px;
     transition: all .5s ease;
 }
@@ -81,6 +80,10 @@ ul{
     font-size: 64px;
     color: var(--white-color);
     font-weight: 600;
+}
+
+.hero-text .btn{
+    margin-top: 30px;
 }
 
 .btn:hover .fa-chevron-right{
@@ -130,6 +133,7 @@ ul{
 
 .player{
     padding: 20px;
+    border-radius: 5px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
 }
 
@@ -147,4 +151,53 @@ ul{
     text-align: justify;
     color: var(--text-color);
     font-size: 15px;
+}
+
+/*  */
+
+/* highlight style */
+
+.highlight-sec{
+    padding: 80px 0 80px;
+}
+
+.highlight-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 50px;
+    align-items: center;
+}
+
+.highlight-text h1{
+    color: var(--h1-color);
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.highlight-text p{
+    margin-top: 20px;
+    text-align: justify;
+    color: var(--text-color);
+    font-size: 15px;
+}
+
+.highlight-text .btn{
+    margin-top: 30px;
+}
+
+.btn:hover .fa-chevron-right{
+    transform: translateX(10px);
+}
+
+.fa-chevron-right{
+    font-weight: 300;
+    font-size: 16px;
+    margin-left: 5px;
+    transition: all .5s ease;
+}
+
+.highlight-img img{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
 }
